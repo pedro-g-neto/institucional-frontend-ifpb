@@ -1,15 +1,15 @@
-# 💻 Site Institucional - Unidade Acadêmica de Informática (IFPB)
+# Site Institucional - Unidade Acadêmica de Informática (IFPB)
 
 Este projeto foi desenvolvido como parte de uma atividade prática da disciplina de **Programação para Web 1** do curso de Engenharia de Software no IFPB.
 
-## 🚀 Sobre o Projeto
+## Sobre o Projeto
 O objetivo foi criar uma página institucional utilizando apenas HTML5 e CSS3 puro, focando em conceitos de estruturação (Box Model), alinhamento (Flexbox e Grid) e semântica web.
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 * **HTML5:** Estrutura semântica da página.
 * **CSS3:** Estilização, layouts com Flexbox/Grid e responsividade básica.
 
-## 📸 Screenshots
+## Screenshots
 Aqui estão alguns prints do resultado final:
 
 
