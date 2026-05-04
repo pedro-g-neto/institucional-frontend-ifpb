@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>UA Informática - IFPB</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#"><img src="img/logo ifpb vertical.png" alt="Logo IFPB"></a>
+            <ul>
+                <a href="#"><li class="navitem">Início</li></a>
+                <a href="#"><li class="navitem">Cursos</li></a>
+                <a href="#"><li class="navitem">Dados</li></a>
+                <a href="#"><li class="navitem">Contato</li></a>
+            </ul>
+
+        </nav>
+    </header>
+    <section class="banner">
+        <h1>Transformando ideias em soluções digitais</h1>
+        <p>A Unidade Acadêmica de Informática do IFPB forma profissionais qualificados em tecnologia, preparando-os para os desafios do mercado digital através de ensino de qualidade e projetos inovadores.</p>
+        <div class="banner-buttons">
+            <a id="green-button-banner" href="#">Conheça nossos cursos</a>
+            <a id="transparent-button-banner" href="#">Entre em contato</a>
+        </div>
+    </section>
+    <section id="courses-section">
+        <h2>Nossos Cursos</h2>
+        <div class="courses">
+            <div class="card">
+                <h3>Técnico em Informática</h3>
+                <p>Formação técnica integrada ao ensino médio com foco em desenvolvimento e manutenção de sistemas.</p>
+            </div>
+            <div class="card">
+                <h3>Engenharia de Software</h3>
+                <p>Bachareladoo focado em desenvolvimento de sistemas e gestão de projetos de software.</p>
+            </div>
+            <div class="card">
+                <h3>Redes de Computadores</h3>
+                <p>Tecnólogo especializado em infraestrutura de redes e segurança da informação.</p>
+            </div>
+            <div class="card">
+                <h3>Sistemas para Internet</h3>
+                <p>Tecnólogo voltado para desenvolvimento web e aplicações para internet.</p>
+            </div>
+        </div>
+        </section>
+        <section id="table-section">
+            <table border="1px">
+                <thead>
+                    <td>Métrica</td>
+                    <td>Valor</td>
+                    <td>Meta 2025</td>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Alunos Matriculados</td>
+                        <td>1.850</td>
+                        <td>2.000</td>
+                    </tr>
+                    <tr>
+                        <td>Taxa de Aprovação</td>
+                        <td>87%</td>
+                        <td>90%</td>
+                    </tr>
+                    <tr>
+                        <td>Projetos de Pesquisa</td>
+                        <td>45</td>
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <td>Professores Doutores</td>
+                        <td>35</td>
+                        <td>40</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="form-section">
+            <form action="/enviar-contato" method="POST">
+                <label for="nome">Nome: </label>
+                <input type="text" id="nome" name="name" placeholder="Digite seu nome aqui">
+                <label for="email">E-mail: </label>
+                <input type="email" id="email" name="email" placeholder="seuemail@aqui.com">
+                <label for="mensagem">Mensagem: </label>
+                <textarea name="mensagem" id="mensagem" rows="10" cols="50"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+</body>
+</html>

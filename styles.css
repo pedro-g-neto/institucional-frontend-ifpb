@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+    
+}
+.navbar{
+    background-color: #166534;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem;
+    height: 90px;
+    
+}
+.navbar img{
+    height: 70px;
+    width: auto;
+}
+.navbar ul{
+    list-style: none;
+    gap: 3rem;
+    display: flex;
+}
+.navbar ul a{
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.5s ease;
+    border-radius: 0.5rem;
+}
+ul a:hover{
+    background-color: #047857;
+    
+}
+.banner{
+    background: linear-gradient(270deg, #166534, #047857 );
+    height: 300px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+.banner p{
+    width: 50rem;
+    font-size: 18px;
+}
+.banner a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem 2rem;
+    transition: background-color 0.5s ease;
+    border-radius: 0.7rem;
+    
+}
+.banner-buttons{
+    display: flex;
+    gap: 2rem;
+}
+.banner a:hover{
+    background-color: white !important;
+    color: black;
+}
+#green-button-banner{
+    background-color: #047857;
+}
+#transparent-button-banner{
+    border: 2px solid white;
+}
+#courses-section{
+    gap: 2rem;
+    justify-content: center;
+    text-align: center;
+    background-color: #f3f4f6;
+}
+#courses-section h2{
+    color: #166534;
+    padding: 1rem;
+}
+.card{
+    background-color: white ;
+    border-radius: 1rem;
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    align-items: center;
+}
+.courses h3{
+    color: #166534;
+}
+.courses{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    max-width: 1200px;
+    padding: 2rem;
+    margin: 0 auto;
+}
+#table-section{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+#table-section table{
+    border-collapse: collapse;
+}
+#table-section td{
+    padding: 1rem;
+}
+#table-section thead{
+    background-color: #166534;
+    color: white;
+    font-weight: bold;
+}
+#table-section tbody{
+    background-color: #ffffff;
+}
+#table-section tr:nth-child(even){
+    background-color: #f3f4f6;
+}
+#form-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 2rem;
+    background-color: #f3f4f6;
+}
+#form-section form{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    gap: 0.5rem;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.7rem;
+}
+#form-section input, textarea{
+    padding: 0.8rem;
+    width: 100%;
+    border: solid #ccc;
+    border-radius: 0.6rem;
+}
+#form-section button{
+    width: 5rem;
+    padding: 0.4rem;
+    background-color: #166534;
+    color: white;
+    border-radius: 0.7rem;
+    transition: background-color 0.8s ease;
+}
+#form-section button:hover{
+    cursor: pointer;
+    background-color: #047857;
+}

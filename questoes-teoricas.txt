@@ -1,0 +1,16 @@
+a) (1,0 ponto) Comunicação Cliente-Servidor
+Explique resumidamente o que acontece quando você digita www.google.com no
+navegador e pressiona Enter. Mencione:
+• O que é DNS e qual sua função
+• O que é uma requisição HTTP
+• O que o servidor retorna para o navegador
+
+Resposta: Ao digitar uma URL no navegador e pressionar Enter, o navegador envia uma requisição ao servidor DNS (Domain Name Server) que retorna o endereço IP correspondente ao domínio enviado pelo usuário ao navegador. Com esse endereço IP, o navegador realiza uma nova requisição HTTP para o servidor WEB, que retorna uma cópia dos arquivos do sistema hospedado no endereço correspondente.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+b) (1,0 ponto) Métodos HTTP
+Explique a diferença entre os métodos GET e POST, dando um exemplo prático de
+quando usar cada um.
+
+Resposta: O método GET é utilizado quando o navegador envia uma requisição para buscar dados no servidor WEB. Um exemplo é quando digitamos algo na ferramenta de busca do YouTube e ela retorna sugestões de vídeo. Ao utilizar a barra de busca, o navegador envia uma requisição com método GET para buscar títulos compatíveis com a descrição do usuário, retornando sugestões à interface. Quanto ao método POST, ele é utilizado quando se quer enviar dados do usuário para o servidor, como em um formulário de cadastro, por exemplo.
+
+
